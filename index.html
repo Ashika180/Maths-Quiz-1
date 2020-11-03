@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title> Welcome! </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script src="function.js"></script>
+    </head>
+
+    <body>
+        <center>
+<h1 id="head"> Welcome! </h1>
+ <span class = "col-lg-4 col-sm-8 xs-11 Question">
+    <div class="image-section">
+        <div class="first-image">
+            <button class="btn"> Addition Question </button>
+        </div>
+<br><br>
+        <div class="first-image">
+           <button class="btn"> Subtraction Question </button>
+        </div>
+<br><br>
+    <div class="first-image">
+        <button class="btn"> Multiplication Question </button>
+     </div>
+<br><br>
+     <div class="first-image">
+        <button class="btn"> Division Question </button>
+     </div>
+     </div>
+     </span>
+ </center>
+<br>
+<br>
+<center>
+    <div id="main">
+        <div class = "col-lg-4 col-sm-8 xs-11 no_div1">
+            <h3> Number-1 For The Game </h3>
+            <label> Number-1 </label>
+            <input type="text" placeholder = "Number-1" id="no.1" class = "form-control">
+        </div>
+        <br>
+        <br>
+        <div class = "col-lg-4 col-sm-8 xs-11 no_div2">
+            <h3> Number-2 For The Game </h3>
+            <label> Number-2</label>
+            <input type="text" placeholder = "Number-2" id="no.2" class = "form-control">
+        </div>
+        </div>
+        <br>
+        <br>
+     </center>
+     <center>
+     <button id="play" onclick="addno()"> PLAY </button>
+     </center>
+    </body>
+</html>
